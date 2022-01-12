@@ -11,3 +11,6 @@
 
 - ###### GET api/getstate - запросить информацию клиента
         curl -v -X GET -H "Content-Type: application/json" --data '{"application": "first-client"}' 'localhost:5000/api/getstate'
+
+
+#### Для тестов программы можно использовать файл [test.sh](test.sh) cостоящий из послудовательного набора curl команд
